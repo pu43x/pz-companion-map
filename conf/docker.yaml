@@ -1,0 +1,49 @@
+pz_root: /pz/game
+output_path: /output
+mod_root: /pz/workshop
+custom_root: /app
+
+output_entry: default
+output_route: map_data/
+
+map_conf_default: default.txt
+map_conf:
+    - vanilla.txt
+
+use_depend_texture_only: false
+
+base_map: default
+mod_maps: []
+
+render_conf:
+    verbose: true
+    profile: false
+    worker_count: 4
+    break_key: ''
+    tile_size: 1024
+    tile_align_levels: 3
+    layer_range: all
+    omit_levels: 0
+    image_fmt: webp
+    image_fmt_base_layer0: jpg
+    image_save_options: {}
+    enable_cache: false
+    cache_limit_mb: 0
+    top_view_square_size: 1
+
+    plants_conf:
+        snow: false
+        large_bush: false
+        flower: false
+        season: summer2
+        tree_size: 2
+        jumbo_tree_size: 4
+        jumbo_tree_type: 0
+        no_ground_cover: false
+        unify_tree_type: -1
+
+    top_view_color_mode: avg
+    default_font: arial.ttf
+    default_font_size: 20
+    zombie_count: false
+    use_mark: true
